@@ -1,7 +1,6 @@
 openai
 streamlit
 spacy
-spacy[en_core_web_lg]
 python-dotenv
 pandas
 scipy
