@@ -20,7 +20,6 @@ def vocab_score(input_text):
     vocab_df = pd.DataFrame()
     tokens, grammar = [], []
     for token in doc:
-        print(token.text, spacy.explain(token.pos_))
         tokens.append(token.text)
         grammar.append(spacy.explain(token.pos_))
     vocab_df["words"] = tokens
